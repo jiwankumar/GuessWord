@@ -1,7 +1,9 @@
 {
   "version": 2,
   "public": true,
-  "builds": [
-    { "src": "scrabble.html", "use": "@vercel/static" }
-  ]
+
+  {
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  }
+
 }
